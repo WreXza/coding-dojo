@@ -7,6 +7,7 @@
         <title>Registration Form</title>
     </head>
     
+    <body>
         <label  for="first_name">first Name</label>
         <input type="text" id="first_name" name="first_name"/>
         <label for="last_name">Last Name</label>
@@ -25,11 +26,12 @@
         <input type="radio" id="female" name="gender" value="female"/>
         <label for="decline">prefer not to say</label>
         <input type="radio" id="decline" name="gender" value="decline"/>
-        <label for="A_short_description_about_yourself:">a short story about yourself</label>
-        <textarea for="A_short_description_about_yourself:"></textarea>
+        <p> A short description about yourself </p>
+        <textarea name="description"></textarea>
         <label for="favorite_language">favorite language</label>
         <select name="favorite_language" id="favorite_language">
             <option value="javascript">javascript</option>
         </select>
     <input type="submit" value="submit">
+    </body>
 </html>
